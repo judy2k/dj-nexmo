@@ -22,7 +22,7 @@ setup(
         "nexmo          >= 2.0.0,<2.1",
         "django         >= 2.0.0",
         "attrs          ~= 17.4.0",
-        "marshmallow    ~= 3.0.0b11",
+        "marshmallow    == 3.0.0b11",
         "phonenumbers   ~= 8.9.4",
     ],
     classifiers=[
