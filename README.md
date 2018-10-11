@@ -123,5 +123,5 @@ your problem sooner!
 
 
 [Nexmo API]: https://developer.nexmo.com/ 
-[phonenumbers]: https://github.com/google/phonenumbers 
+[phonenumbers]: https://github.com/googlei18n/libphonenumber 
 [Nexmo Client Library for Python]: https://github.com/nexmo/nexmo-python
