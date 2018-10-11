@@ -28,6 +28,7 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
