@@ -1,3 +1,5 @@
+import os
+
 from setuptools import setup, find_packages
 
 
@@ -9,7 +11,8 @@ setup(
     url="https://developer.nexmo.com/",
     description="Utilities for Django developers using Nexmo's APIs",
 
-    long_description=open("README.md").read(),
+    long_description=open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "README.md"),
+                          encoding="utf-8").read(),
     long_description_content_type="text/markdown",
 
     packages=find_packages("src"),
