@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="dj-nexmo",
-    version="0.0.1",
+    version="0.0.4",
     author="Nexmo Developer Relations",
     author_email="devrel@nexmo.com",
-    url="https://developer.nexmo.com/",
+    url="https://github.com/Nexmo/dj-nexmo/",
     description="Utilities for Django developers using Nexmo's APIs",
 
     long_description=open("README.md").read(),
@@ -19,15 +19,17 @@ setup(
         "console_scripts": ["dj = django.core.management:execute_from_command_line"]
     },
     install_requires=[
-        "nexmo          >= 2.0.0,<3.0",
-        "django         >= 2.0.0",
-        "attrs          ~= 17.4.0",
-        "marshmallow    ~= 3.0.0b8",
-        "phonenumbers   ~= 8.9.4",
+        "nexmo          ~= 2.0",
+        "django         ~= 2.0",
+        "attrs          ~= 17.4",
+        "marshmallow    >= 3.0.0rc3",
+        "phonenumbers   ~= 8.9",
     ],
+    python_requires=">=3.4",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
