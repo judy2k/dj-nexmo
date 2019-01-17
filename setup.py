@@ -25,7 +25,7 @@ setup(
         "marshmallow    ~= 3.0.0b8",
         "phonenumbers   ~= 8.9.4",
     ],
-    python_requires=">=3.5",
+    python_requires=">=3.4",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Framework :: Django :: 2.0",
