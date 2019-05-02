@@ -38,10 +38,14 @@ class App:
     def addHeaderToFile(self, path):
         fileReader = open(path, "r")
         content = fileReader.readlines()
-        # ignore empty files
+        # ignore empty files test if the header already exists
+        # and add content accordingly
         if len(content) > 0 and type(content) is list:
             commentLines = App.COMMENT_HEADER.split("\n")
-            content = commentLines + content 
+            for i in range(len(commentLines)):
+                if commentLines[i]+"\n" != content[i]:
+                    content.insert(i, commentLines[i]+"\n")
+
         fileReader.close()
         fileWriter = open(path, "w")
         fileWriter.seek(0)
