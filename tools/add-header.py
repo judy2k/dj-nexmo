@@ -1,3 +1,4 @@
+
 # Licensed under the Apache License, Version 2.0 (the "License"). You may not
 # use this file except in compliance with the License. A copy of the License is
 # located at
@@ -50,7 +51,7 @@ class App:
         fileWriter = open(path, "w")
         fileWriter.seek(0)
         for line in content:
-            if line.find('\n') ==  -1
+            if line.find('\n') ==  -1:
                 line += '\n'
             fileWriter.write(line)
         fileWriter.close()
