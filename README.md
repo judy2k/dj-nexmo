@@ -1,7 +1,7 @@
 # DJ-Nexmo
 
 [![PyPI version](https://badge.fury.io/py/dj-nexmo.svg)](https://badge.fury.io/py/dj-nexmo)
-[![Build Status](https://api.travis-ci.org/Nexmo/dj-nexmo.svg?branch=master)](https://travis-ci.org/Nexmo/dj-nexmo)
+[![Build Status](https://api.travis-ci.org/Nexmo/dj-nexmo.svg?branch=main)](https://travis-ci.org/Nexmo/dj-nexmo)
 [![Coverage Status](https://coveralls.io/repos/github/Nexmo/dj-nexmo/badge.svg?branch=master)](https://coveralls.io/github/Nexmo/dj-nexmo?branch=master)
 
 The [Nexmo API] is _awesome_ - but there are some problems that developers using Nexmo need to solve again and again.
